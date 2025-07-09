@@ -1,24 +1,11 @@
 {
-  "name": "api-kopikuy",
+  "name": "pbk-warung-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeoKucing/Api-KopiKuy.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LeoKucing/Api-KopiKuy/issues"
-  },
-  "homepage": "https://github.com/LeoKucing/Api-KopiKuy#readme",
-  "description": ""
+    "json-server": "^0.17.3"
+  }
 }
