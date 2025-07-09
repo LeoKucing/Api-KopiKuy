@@ -1,0 +1,9 @@
+{
+  "produk": [
+    { "id": 1, "nama": "Kopi Susu", "harga": 15000 },
+    { "id": 2, "nama": "Kopi Hitam", "harga": 12000 }
+  ],
+  "pesanan": [
+    { "id": 1, "produkId": 1, "jumlah": 2 }
+  ]
+}
