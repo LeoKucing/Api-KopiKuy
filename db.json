@@ -1,9 +1,289 @@
-{
-  "produk": [
-    { "id": 1, "nama": "Kopi Susu", "harga": 15000 },
-    { "id": 2, "nama": "Kopi Hitam", "harga": 12000 }
-  ],
-  "pesanan": [
-    { "id": 1, "produkId": 1, "jumlah": 2 }
-  ]
-}
+    {
+    "menus": [
+        {
+        "id": "1",
+        "kategori": "Manual Brew Coffee",
+        "nama": "Vietnam Drip",
+        "harga": 15000
+        },
+        {
+        "id": "2",
+        "kategori": "Black Coffee",
+        "nama": "Americano",
+        "harga": 14000
+        },
+        {
+        "id": "3",
+        "kategori": "Black Coffee",
+        "nama": "Coffee Beer",
+        "harga": 16000
+        },
+        {
+        "id": "4",
+        "kategori": "White Coffee",
+        "nama": "Cappuccino",
+        "harga": 15000
+        },
+        {
+        "id": "5",
+        "kategori": "White Coffee",
+        "nama": "Coffee Latte",
+        "harga": 15000
+        },
+        {
+        "id": "6",
+        "kategori": "White Coffee",
+        "nama": "Caramel Latte",
+        "harga": 18000
+        },
+        {
+        "id": "7",
+        "kategori": "Coffee Milk",
+        "nama": "Coffee Aren",
+        "harga": 15000
+        },
+        {
+        "id": "8",
+        "kategori": "Coffee Milk",
+        "nama": "Sanger",
+        "harga": 15000
+        },
+        {
+        "id": "9",
+        "kategori": "Coffee Milk",
+        "nama": "Coffee Taro",
+        "harga": 17000
+        },
+        {
+        "id": "10",
+        "kategori": "Coffee Milk",
+        "nama": "Mocca",
+        "harga": 18000
+        },
+        {
+        "id": "11",
+        "kategori": "Coffee Milk",
+        "nama": "Sereal Coffee",
+        "harga": 17000
+        },
+        {
+        "id": "12",
+        "kategori": "Milky",
+        "nama": "Brown Sugar Jelly",
+        "harga": 15000
+        },
+        {
+        "id": "13",
+        "kategori": "Milky",
+        "nama": "Milky Redvelvet",
+        "harga": 15000
+        },
+        {
+        "id": "14",
+        "kategori": "Milky",
+        "nama": "Milky Taro",
+        "harga": 15000
+        },
+        {
+        "id": "15",
+        "kategori": "Milky",
+        "nama": "Milky Vanilla",
+        "harga": 15000
+        },
+        {
+        "id": "16",
+        "kategori": "Milky",
+        "nama": "Milky Coklat",
+        "harga": 15000
+        },
+        {
+        "id": "17",
+        "kategori": "Milky",
+        "nama": "Milky Matcha",
+        "harga": 18000
+        },
+        {
+        "id": "18",
+        "kategori": "Tea",
+        "nama": "Yakultea",
+        "harga": 13000
+        },
+        {
+        "id": "19",
+        "kategori": "Soft Drink",
+        "nama": "Blue Ocean",
+        "harga": 13000
+        },
+        {
+        "id": "20",
+        "kategori": "Soft Drink",
+        "nama": "Manggo",
+        "harga": 13000
+        },
+        {
+        "id": "21",
+        "kategori": "Soft Drink",
+        "nama": "Strawbeery",
+        "harga": 13000
+        },
+        {
+        "id": "22",
+        "kategori": "Snack",
+        "nama": "Roti Bakar",
+        "harga": 13000
+        },
+        {
+        "id": "23",
+        "kategori": "Snack",
+        "nama": "Kentang Goreng",
+        "harga": 14000
+        }
+    ],
+    "orders": [
+        {
+        "id": "6dc5",
+        "nama": "arip",
+        "items": [
+            {
+            "nama": "Vietnam Drip",
+            "harga": 15000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Vietnam Drip",
+            "harga": 15000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Vietnam Drip",
+            "harga": 15000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Vietnam Drip",
+            "harga": 15000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Cappuccino",
+            "harga": 15000,
+            "jenis": "Panas"
+            },
+            {
+            "nama": "Cappuccino",
+            "harga": 15000,
+            "jenis": "Panas"
+            },
+            {
+            "nama": "Cappuccino",
+            "harga": 15000,
+            "jenis": "Panas"
+            },
+            {
+            "nama": "Sereal Coffee",
+            "harga": 17000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Sereal Coffee",
+            "harga": 17000,
+            "jenis": "Panas"
+            },
+            {
+            "nama": "Milky Vanilla",
+            "harga": 15000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Milky Vanilla",
+            "harga": 15000,
+            "jenis": "Panas"
+            },
+            {
+            "nama": "Yakultea",
+            "harga": 13000,
+            "jenis": ""
+            },
+            {
+            "nama": "Blue Ocean",
+            "harga": 13000,
+            "jenis": ""
+            },
+            {
+            "nama": "Manggo",
+            "harga": 13000,
+            "jenis": ""
+            },
+            {
+            "nama": "Roti Bakar",
+            "harga": 13000,
+            "jenis": ""
+            },
+            {
+            "nama": "Kentang Goreng",
+            "harga": 14000,
+            "jenis": ""
+            }
+        ],
+        "total": 235000,
+        "selesai": true
+        },
+        {
+        "id": "dd28",
+        "nama": "leo",
+        "items": [
+            {
+            "nama": "Americano",
+            "harga": 14000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Americano",
+            "harga": 14000,
+            "jenis": "Dingin"
+            },
+            {
+            "nama": "Americano",
+            "harga": 14000,
+            "jenis": "Panas"
+            },
+            {
+            "nama": "Yakultea",
+            "harga": 13000,
+            "jenis": ""
+            },
+            {
+            "nama": "Kentang Goreng",
+            "harga": 14000,
+            "jenis": ""
+            },
+            {
+            "nama": "Roti Bakar",
+            "harga": 13000,
+            "jenis": ""
+            }
+        ],
+        "total": 82000,
+        "selesai": true
+        }
+    ],
+    "reports": [
+        {
+        "id": "1",
+        "nama": "Leo",
+        "pesan": "Pelayanannya cepat!"
+        },
+        {
+        "id": "2fa4",
+        "pesan": "skm habis",
+        "selesai": false
+        }
+    ],
+    "users": [
+        {
+        "id": "1",
+        "username": "admin",
+        "password": "12345"
+        }
+    ]
+    }
