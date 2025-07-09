@@ -8,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoKucing/Api-KopiKuy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeoKucing/Api-KopiKuy/issues"
+  },
+  "homepage": "https://github.com/LeoKucing/Api-KopiKuy#readme",
+  "description": ""
 }
